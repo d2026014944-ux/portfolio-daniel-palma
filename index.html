@@ -764,23 +764,29 @@ body::after {
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 03</span>
     </a>
-    <a href="#section-opportunity" class="toc-item">
+    <a href="#section-coafa" class="toc-item">
       <span class="toc-number">04</span>
-      <span class="toc-text">Oportunidades &amp; Contato</span>
+      <span class="toc-text">Projeto COAFA v1</span>
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 04</span>
     </a>
-    <a href="#section-vision" class="toc-item">
+    <a href="#section-opportunity" class="toc-item">
       <span class="toc-number">05</span>
-      <span class="toc-text">Visão &amp; Propósito</span>
+      <span class="toc-text">Oportunidades &amp; Contato</span>
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 05</span>
     </a>
-    <a href="#section-colophon" class="toc-item">
+    <a href="#section-vision" class="toc-item">
       <span class="toc-number">06</span>
-      <span class="toc-text">Colofão</span>
+      <span class="toc-text">Visão &amp; Propósito</span>
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 06</span>
+    </a>
+    <a href="#section-colophon" class="toc-item">
+      <span class="toc-number">07</span>
+      <span class="toc-text">Colofão</span>
+      <span class="toc-dots"></span>
+      <span class="toc-page">pg. 07</span>
     </a>
   </ol>
 </nav>
@@ -1008,7 +1014,117 @@ body::after {
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 5: OPPORTUNITIES ==================== -->
+<!-- ==================== PAGE 5: COAFA ==================== -->
+<div class="page" id="section-coafa">
+
+<section class="magazine-grid">
+  <div class="col">
+    <span class="section-label">Projeto COAFA v1</span>
+    <h2>Centro Operacional de Análise de Fenômenos Aéreos</h2>
+    <p class="lead">O COAFA é uma plataforma científica para registrar, classificar e correlacionar eventos aéreos anômalos — coordenadas, sensores, trajetórias e evidências multimídia em um banco de dados auditável. Projeto PURSUE, com uso científico e de defesa.</p>
+    <p>A arquitetura baseia-se em microserviços independentes com dados correlacionados. Cada módulo opera de forma isolada e resiliente, comunicando-se via mensageria e persistindo em um banco unificado geoespacial-temporal.</p>
+
+    <div class="pull-quote">
+      "Triagem, análise e monitoramento unificado de anomalias aéreas. Plataforma científica para registrar, classificar e correlacionar eventos aéreos anômalos."
+      <cite>— COAFA v1 · Projeto PURSUE</cite>
+    </div>
+
+    <h3>Dados do Projeto</h3>
+    <table class="skills-table">
+      <tbody>
+        <tr><td>Histórico auditável</td><td>20+ anos</td></tr>
+        <tr><td>Monitoramento</td><td>Contínuo 24/7</td></tr>
+        <tr><td>Sensores</td><td>Radar · Óptico · Eletromagnético</td></tr>
+        <tr><td>Segurança</td><td>Acesso hierarquizado (RLS)</td></tr>
+        <tr><td>Status</td><td>v1 · Blueprint PURSUE</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Arquitetura</span>
+    <h3>Microserviços Independentes</h3>
+
+    <div class="info-box">
+      <h4>Módulos Principais</h4>
+      <ul>
+        <li><strong>Coleta multi-sensor</strong> — APIs de ingestão para radar, óptico e equipamentos eletromagnéticos com validação preliminar</li>
+        <li><strong>Triagem automatizada</strong> — Regras: se velocidade > X e altitude < Y → disparar alerta. Correlação e distinção de fenômenos conhecidos</li>
+        <li><strong>Banco unificado</strong> — Estruturado + não-estruturado (imagens, vídeos), índices temporais/geográficos, redundância</li>
+        <li><strong>Painel geoespacial</strong> — Visualização em tempo real, mapas interativos e relatórios técnicos exportáveis</li>
+        <li><strong>Segurança hierarquizada</strong> — Papéis admin / analista / observador, log de auditoria, criptografia em trânsito e repouso</li>
+        <li><strong>DevOps 24/7</strong> — Deploy contínuo em nuvem, escalabilidade automática e redundância geográfica</li>
+      </ul>
+    </div>
+
+    <div class="mag-image-wrap">
+      <svg width="100%" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="200" fill="#1a1611"/>
+        <rect x="20" y="20" width="110" height="70" rx="3" fill="none" stroke="#8b2500" stroke-width="1.5"/>
+        <text x="75" y="50" font-family="'IBM Plex Mono', monospace" font-size="7" fill="#8b2500" text-anchor="middle" letter-spacing="0.1em">COLETA</text>
+        <text x="75" y="65" font-family="'IBM Plex Mono', monospace" font-size="5.5" fill="#6b5e4f" text-anchor="middle">Radar · Óptico · EM</text>
+        <rect x="145" y="20" width="110" height="70" rx="3" fill="none" stroke="#c4593c" stroke-width="1.5"/>
+        <text x="200" y="50" font-family="'IBM Plex Mono', monospace" font-size="7" fill="#c4593c" text-anchor="middle" letter-spacing="0.1em">TRIAGEM</text>
+        <text x="200" y="65" font-family="'IBM Plex Mono', monospace" font-size="5.5" fill="#6b5e4f" text-anchor="middle">Automatizada</text>
+        <rect x="270" y="20" width="110" height="70" rx="3" fill="none" stroke="#8b2500" stroke-width="1.5"/>
+        <text x="325" y="50" font-family="'IBM Plex Mono', monospace" font-size="7" fill="#8b2500" text-anchor="middle" letter-spacing="0.1em">BANCO</text>
+        <text x="325" y="65" font-family="'IBM Plex Mono', monospace" font-size="5.5" fill="#6b5e4f" text-anchor="middle">Unificado</text>
+        <line x1="130" y1="55" x2="145" y2="55" stroke="#6b5e4f" stroke-width="1" marker-end="url(#arrowhead)"/>
+        <line x1="255" y1="55" x2="270" y2="55" stroke="#6b5e4f" stroke-width="1"/>
+        <rect x="20" y="110" width="170" height="70" rx="3" fill="none" stroke="#c4593c" stroke-width="1.5"/>
+        <text x="105" y="140" font-family="'IBM Plex Mono', monospace" font-size="7" fill="#c4593c" text-anchor="middle" letter-spacing="0.1em">PAINEL GEOESPACIAL</text>
+        <text x="105" y="155" font-family="'IBM Plex Mono', monospace" font-size="5.5" fill="#6b5e4f" text-anchor="middle">Tempo real · Mapas · Relatórios</text>
+        <rect x="210" y="110" width="170" height="70" rx="3" fill="none" stroke="#8b2500" stroke-width="1.5"/>
+        <text x="295" y="140" font-family="'IBM Plex Mono', monospace" font-size="7" fill="#8b2500" text-anchor="middle" letter-spacing="0.1em">SEGURANÇA</text>
+        <text x="295" y="155" font-family="'IBM Plex Mono', monospace" font-size="5.5" fill="#6b5e4f" text-anchor="middle">RLS · Auditoria · Criptografia</text>
+        <line x1="75" y1="90" x2="75" y2="110" stroke="#6b5e4f" stroke-width="0.5" stroke-dasharray="3"/>
+        <line x1="325" y1="90" x2="325" y2="110" stroke="#6b5e4f" stroke-width="0.5" stroke-dasharray="3"/>
+      </svg>
+      <div class="mag-image-caption">Diagrama de arquitetura — COAFA v1 · Microserviços</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Links</span>
+    <h3>Acessos</h3>
+
+    <div class="info-box">
+      <h4>Plataforma</h4>
+      <ul>
+        <li><a href="https://observation-nexus-core.lovable.app" target="_blank" style="color:var(--accent);">Demo Online — COAFA v1</a></li>
+        <li><a href="https://observation-nexus-core.lovable.app/auth" target="_blank" style="color:var(--accent);">Entrar / Solicitar acesso</a></li>
+        <li><a href="https://observation-nexus-core.lovable.app/dashboard" target="_blank" style="color:var(--accent);">Painel operacional</a></li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h4>Código-fonte</h4>
+      <ul>
+        <li><a href="https://github.com/UNIFEI-CDA/observation-nexus-core" target="_blank" style="color:var(--accent);">GitHub — observation-nexus-core</a></li>
+        <li>Organização: UNIFEI-CDA</li>
+        <li>Submódulo no repo central do portfolio</li>
+      </ul>
+    </div>
+
+    <h3>Stack COAFA</h3>
+    <table class="skills-table">
+      <tbody>
+        <tr><td>Frontend</td><td>React + TypeScript</td></tr>
+        <tr><td>Backend</td><td>Supabase (PostgreSQL)</td></tr>
+        <tr><td>Auth</td><td>RLS (Row Level Security)</td></tr>
+        <tr><td>Deploy</td><td>Lovable / Vercel</td></tr>
+        <tr><td>Dados</td><td>Geoespacial + temporal</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="page-number">— 05 —</div>
+</div>
+
+<div class="page-turn-divider"></div>
+
+<!-- ==================== PAGE 6: OPPORTUNITIES ==================== -->
 <div class="page" id="section-opportunity">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1061,12 +1177,12 @@ body::after {
   </div>
 </section>
 
-<div class="page-number">— 05 —</div>
+<div class="page-number">— 06 —</div>
 </div>
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 6: VISION & CONTACT ==================== -->
+<!-- ==================== PAGE 7: VISION & CONTACT ==================== -->
 <div class="page" id="section-vision">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1117,7 +1233,7 @@ body::after {
   </div>
 </div>
 
-<div class="page-number">— 06 —</div>
+<div class="page-number">— 07 —</div>
 </div>
 
 <div class="page-turn-divider"></div>
