@@ -21,6 +21,58 @@ Portfolio interativo com estética de magazine dos anos 90, apresentando projeto
 
 ---
 
+## 🗺️ Roadmap — Defesa Espacial & Consciência Situacional
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    SISTEMA DE DEFESA ESPACIAL                       │
+│                                                                     │
+│   DETECÇÃO ──→ TRIAGEM ──→ CLASSIFICAÇÃO ──→ RESPOSTA ──→ DEFESA   │
+│                                                                     │
+│   ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌────────┐  ┌────────┐  │
+│   │ Sensores│  │ Filtros │  │   IA +   │  │ Análise│  │ Ação   │  │
+│   │ Radar   │→ │ Automat.│→ │ Física   │→ │ Risco  │→ │ Protet.│  │
+│   │ Óptico  │  │ Sinais  │  │ Matemát. │  │ Humana │  │        │  │
+│   │ EM      │  │         │  │          │  │        │  │        │  │
+│   └─────────┘  └─────────┘  └──────────┘  └────────┘  └────────┘  │
+│                                                                     │
+│   FASE 1       FASE 2       FASE 3        FASE 4     FASE 5        │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+| Fase | Descrição | Duração | Técnicas Principais |
+|------|-----------|---------|---------------------|
+| **F1** | Análise Exploratória de Dados | 2-3 meses | IQR, Z-Score, Isolation Forest, correlação |
+| **F2** | Física Matemática Aplicada | 3-4 meses | Mecânica orbital, J2, Monte Carlo, Kalman |
+| **F3** | Inteligência Artificial | 4-6 meses | CNN, Random Forest, detecção de anomalias |
+| **F4** | Defesa e Resposta | 2-3 meses | Protocolos automáticos, manobras evasivas |
+| **F5** | Otimização e Métricas | Contínuo | Dashboard, funções de custo, melhoria contínua |
+
+### Taxonomia de Ameaças
+
+| Tipo | Exemplos | Ação |
+|------|----------|------|
+| 🌑 **Naturais** | Meteoroides, Asteroides, Cometas | Monitoramento + Predição |
+| 🛰️ **Artificiais** | Debris, Satélites inativos, Fragmentações | Catálogo + Alerta |
+| 🔮 **Anômalos** | Trajetória não-padrão, Emissão EM | Investigação + Documentação |
+
+### Função de Otimização
+
+```
+MAXIMIZAR: Consciência Situacional (CS)
+CS = f(Detectabilidade, Precisão, Cobertura, Latência, Resposta)
+
+META: Falsos positivos < 5% · Cobertura > 80% · Latência < 5s
+```
+
+[![Ver Roadmap Completo](https://img.shields.io/badge/📄_Ver_Roadmap_Completo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/d2026014944-ux/portfolio-daniel-palma/blob/main/ROADMAP.md)
+
+---
+
 ## 📋 Sobre
 
 Estudante de **Ciência de Dados Aplicada** na [UNIFEI](https://www.unifei.edu.br/) (Universidade Federal de Itajubá), com interesse em contribuir com o projeto do telescópio russo no [Observatório do Pico dos Dias (OPD)](https://www.lna.br/opd), em cooperação internacional entre **Roscosmos**, **AEB** e **LNA**.
