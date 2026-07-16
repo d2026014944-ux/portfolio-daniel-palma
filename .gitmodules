@@ -1,0 +1,3 @@
+[submodule "observation-nexus-core"]
+	path = observation-nexus-core
+	url = https://github.com/UNIFEI-CDA/observation-nexus-core.git

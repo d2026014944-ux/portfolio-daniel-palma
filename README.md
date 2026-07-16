@@ -6,9 +6,20 @@ Portfolio pessoal em estilo magazine dos anos 90.
 
 Interesse em contribuir com o projeto do telescópio russo no Observatório do Pico dos Dias (OPD), em cooperação com Roscosmos, AEB e LNA.
 
-## 🌐 Demo
+---
 
-🔗 [Portfolio Online](https://withdrawal-eastern-court-queensland.trycloudflare.com)
+## 🌐 Demos & Projetos
+
+| Projeto | Demo | Repositório |
+|---------|------|-------------|
+| **Portfolio Pessoal** | [🔗 Online](https://withdrawal-eastern-court-queensland.trycloudflare.com) | [portfolio-daniel-palma](https://github.com/d2026014944-ux/portfolio-daniel-palma) |
+| **COAFA v1** — Centro Operacional de Análise de Fenômenos Aéreos | [🔗 Online](https://observation-nexus-core.lovable.app) | [observation-nexus-core](https://github.com/UNIFEI-CDA/observation-nexus-core) |
+
+### Sobre o COAFA
+
+Plataforma científica para registrar, classificar e correlacionar eventos aéreos anômalos — coordenadas, sensores, trajetórias e evidências multimídia em um banco de dados auditável. Projeto PURSUE.
+
+---
 
 ## Stack
 
@@ -22,6 +33,7 @@ Interesse em contribuir com o projeto do telescópio russo no Observatório do P
 ```
 index.html    — Portfolio completo (single page)
 README.md     — Este arquivo
+observation-nexus-core/  — Submódulo COAFA (UNIFEI-CDA)
 ```
 
 ## Contato
