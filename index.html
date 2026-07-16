@@ -776,23 +776,29 @@ body::after {
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 05</span>
     </a>
-    <a href="#section-opportunity" class="toc-item">
+    <a href="#section-exoplanetas" class="toc-item">
       <span class="toc-number">06</span>
+      <span class="toc-text">Exoplanetas da NASA</span>
+      <span class="toc-dots"></span>
+      <span class="toc-page">pg. 06</span>
+    </a>
+    <a href="#section-opportunity" class="toc-item">
+      <span class="toc-number">07</span>
       <span class="toc-text">Oportunidades &amp; Contato</span>
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 05</span>
     </a>
     <a href="#section-vision" class="toc-item">
-      <span class="toc-number">07</span>
+      <span class="toc-number">08</span>
       <span class="toc-text">Visão &amp; Propósito</span>
       <span class="toc-dots"></span>
-      <span class="toc-page">pg. 07</span>
+      <span class="toc-page">pg. 08</span>
     </a>
     <a href="#section-colophon" class="toc-item">
-      <span class="toc-number">08</span>
+      <span class="toc-number">09</span>
       <span class="toc-text">Colofão</span>
       <span class="toc-dots"></span>
-      <span class="toc-page">pg. 08</span>
+      <span class="toc-page">pg. 09</span>
     </a>
   </ol>
 </nav>
@@ -1250,7 +1256,137 @@ body::after {
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 7: OPPORTUNITIES ==================== -->
+<!-- ==================== PAGE 7: EXOPLANETAS ==================== -->
+<div class="page" id="section-exoplanetas">
+
+<section class="magazine-grid">
+  <div class="col">
+    <span class="section-label">Astronomia &amp; Dados</span>
+    <h2>Decifrando o Universo: 6.291 Exoplanetas</h2>
+    <p class="lead">Análise exploratória de dados do catálogo de exoplanetas da NASA. Projeto acadêmico de Daniel A. Palma (UNIFEI) com dados reais do NASA Exoplanet Archive, visualizações interativas e insights científicos sobre mundos distantes.</p>
+    <p>O dataset do NASA Exoplanet Archive (Caltech) contém registros de 6.291 exoplanetas descobertos, incluindo parâmetros físicos, orbitais e métodos de detecção. A análise revela padrões, vieses observacionais e a fronteira do conhecimento humano.</p>
+
+    <div class="pull-quote">
+      "Análise profunda de dados astronômicos revelando padrões, vieses observacionais e a fronteira do conhecimento humano sobre mundos distantes."
+      <cite>— Projeto Exoplanetas · UNIFEI</cite>
+    </div>
+
+    <h3>Estatísticas</h3>
+    <table class="skills-table">
+      <tbody>
+        <tr><td>Exoplanetas analisados</td><td>6.291</td></tr>
+        <tr><td>Fonte dos dados</td><td>NASA Exoplanet Archive (Caltech)</td></tr>
+        <tr><td>Métodos de detecção</td><td>Trânsito · Velocidade Radial · Outros</td></tr>
+        <tr><td>Visualizações</td><td>Interativas + Estáticas</td></tr>
+        <tr><td>Tipo</td><td>Projeto acadêmico — AED</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Análise</span>
+    <h3>O que foi Investigado</h3>
+
+    <div class="info-box">
+      <h4>Temas da Análise</h4>
+      <ul>
+        <li><strong>Massa vs Raio</strong> — correlação entre parâmetros físicos em escala log</li>
+        <li><strong>Cronologia das Descobertas</strong> — evolução temporal das detecções</li>
+        <li><strong>Métodos de Descoberta</strong> — distribuição por trânsito, velocidade radial e outros</li>
+        <li><strong>Mapa celeste</strong> — projeção Mollweide com coordenadas celestes</li>
+        <li><strong>Viés de proximidade</strong> — maioria dos exoplanetas tem período orbital curto</li>
+        <li><strong>Variáveis astronômicas</strong> — temperatura, raio, massa, período orbital</li>
+      </ul>
+    </div>
+
+    <h3>Viés Observacional</h3>
+    <p>Um dos insights mais importantes: a maioria dos exoplanetas catalogados possui período orbital curto. Isso reflete um viés de proximidade — planetas mais próximos de suas estrelas são mais fáceis de detectar, especialmente pelo método de trânsito.</p>
+
+    <div class="mag-image-wrap">
+      <svg width="100%" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="200" fill="#1a1611"/>
+        <text x="200" y="18" font-family="'IBM Plex Mono', monospace" font-size="6" fill="#6b5e4f" text-anchor="middle" letter-spacing="0.15em">MAPA CELESTE — EXOPLANETAS POR MÉTODO DE DETECÇÃO</text>
+        <!-- circle outline (equator) -->
+        <circle cx="200" cy="110" r="75" fill="none" stroke="#3d352a" stroke-width="0.5"/>
+        <circle cx="200" cy="110" r="50" fill="none" stroke="#3d352a" stroke-width="0.3" stroke-dasharray="2"/>
+        <circle cx="200" cy="110" r="25" fill="none" stroke="#3d352a" stroke-width="0.3" stroke-dasharray="2"/>
+        <!-- axis -->
+        <line x1="125" y1="110" x2="275" y2="110" stroke="#3d352a" stroke-width="0.3"/>
+        <line x1="200" y1="35" x2="200" y2="185" stroke="#3d352a" stroke-width="0.3"/>
+        <!-- Transit planets (cyan) -->
+        <circle cx="180" cy="80" r="2.5" fill="#00bcd4" opacity="0.7"/>
+        <circle cx="210" cy="95" r="2" fill="#00bcd4" opacity="0.6"/>
+        <circle cx="195" cy="70" r="3" fill="#00bcd4" opacity="0.8"/>
+        <circle cx="220" cy="105" r="1.8" fill="#00bcd4" opacity="0.5"/>
+        <circle cx="175" cy="100" r="2.2" fill="#00bcd4" opacity="0.7"/>
+        <circle cx="205" cy="85" r="2.8" fill="#00bcd4" opacity="0.7"/>
+        <circle cx="190" cy="120" r="1.5" fill="#00bcd4" opacity="0.5"/>
+        <circle cx="215" cy="75" r="2" fill="#00bcd4" opacity="0.6"/>
+        <circle cx="185" cy="130" r="2.5" fill="#00bcd4" opacity="0.7"/>
+        <circle cx="225" cy="90" r="1.8" fill="#00bcd4" opacity="0.6"/>
+        <circle cx="170" cy="115" r="2" fill="#00bcd4" opacity="0.5"/>
+        <circle cx="240" cy="100" r="2.2" fill="#00bcd4" opacity="0.6"/>
+        <!-- Radial Velocity planets (orange) -->
+        <circle cx="155" cy="140" r="3" fill="#ff9800" opacity="0.7"/>
+        <circle cx="250" cy="130" r="2.5" fill="#ff9800" opacity="0.6"/>
+        <circle cx="160" cy="90" r="2" fill="#ff9800" opacity="0.5"/>
+        <circle cx="245" cy="80" r="2.8" fill="#ff9800" opacity="0.7"/>
+        <circle cx="140" cy="110" r="2.2" fill="#ff9800" opacity="0.6"/>
+        <circle cx="260" cy="115" r="1.8" fill="#ff9800" opacity="0.5"/>
+        <circle cx="150" cy="125" r="2.5" fill="#ff9800" opacity="0.7"/>
+        <circle cx="255" cy="95" r="2" fill="#ff9800" opacity="0.6"/>
+        <!-- Legend -->
+        <circle cx="140" cy="185" r="3" fill="#00bcd4" opacity="0.8"/>
+        <text x="148" y="188" font-family="'IBM Plex Mono', monospace" font-size="5" fill="#6b5e4f">Trânsito</text>
+        <circle cx="220" cy="185" r="3" fill="#ff9800" opacity="0.8"/>
+        <text x="228" y="188" font-family="'IBM Plex Mono', monospace" font-size="5" fill="#6b5e4f">Velocidade Radial</text>
+      </svg>
+      <div class="mag-image-caption">Projeção Mollweide-like — exoplanetas em coordenadas celestes</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Links</span>
+    <h3>Acessos</h3>
+
+    <div class="info-box">
+      <h4>Projeto</h4>
+      <ul>
+        <li><a href="https://lustrous-cascaron-7f4b96.netlify.app/" target="_blank" style="color:var(--accent);">Demo Online — Exoplanetas NASA</a></li>
+        <li><a href="https://exoplanetarchive.ipac.caltech.edu/" target="_blank" style="color:var(--accent);">NASA Exoplanet Archive (fonte)</a></li>
+      </ul>
+    </div>
+
+    <h3>Stack Técnica</h3>
+    <table class="skills-table">
+      <tbody>
+        <tr><td>Análise</td><td>Python (Pandas, Matplotlib)</td></tr>
+        <tr><td>Frontend</td><td>HTML/CSS/JS</td></tr>
+        <tr><td>Dados</td><td>NASA Exoplanet Archive</td></tr>
+        <tr><td>Deploy</td><td>Netlify</td></tr>
+        <tr><td>Visualização</td><td>Gráficos interativos + SVG</td></tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <h4>Destaques Científicos</h4>
+      <ul>
+        <li>Correlação massa–raio em escala logarítmica</li>
+        <li>Viés observacional em períodos orbitais curtos</li>
+        <li>Distribuição por método: trânsito domina</li>
+        <li>Mapa celeste com projeção Mollweide</li>
+        <li>Cronologia mostra explosão de descobertas pós-Kepler</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="page-number">— 07 —</div>
+</div>
+
+<div class="page-turn-divider"></div>
+
+<!-- ==================== PAGE 8: OPPORTUNITIES ==================== -->
 <div class="page" id="section-opportunity">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1303,12 +1439,12 @@ body::after {
   </div>
 </section>
 
-<div class="page-number">— 07 —</div>
+<div class="page-number">— 08 —</div>
 </div>
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 8: VISION & CONTACT ==================== -->
+<!-- ==================== PAGE 9: VISION & CONTACT ==================== -->
 <div class="page" id="section-vision">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1359,7 +1495,7 @@ body::after {
   </div>
 </div>
 
-<div class="page-number">— 08 —</div>
+<div class="page-number">— 09 —</div>
 </div>
 
 <div class="page-turn-divider"></div>
