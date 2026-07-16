@@ -782,23 +782,29 @@ body::after {
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 06</span>
     </a>
-    <a href="#section-opportunity" class="toc-item">
+    <a href="#section-pursue" class="toc-item">
       <span class="toc-number">07</span>
+      <span class="toc-text">PURSUE 2026 — Dashboard</span>
+      <span class="toc-dots"></span>
+      <span class="toc-page">pg. 07</span>
+    </a>
+    <a href="#section-opportunity" class="toc-item">
+      <span class="toc-number">08</span>
       <span class="toc-text">Oportunidades &amp; Contato</span>
       <span class="toc-dots"></span>
       <span class="toc-page">pg. 05</span>
     </a>
     <a href="#section-vision" class="toc-item">
-      <span class="toc-number">08</span>
+      <span class="toc-number">09</span>
       <span class="toc-text">Visão &amp; Propósito</span>
       <span class="toc-dots"></span>
-      <span class="toc-page">pg. 08</span>
+      <span class="toc-page">pg. 09</span>
     </a>
     <a href="#section-colophon" class="toc-item">
-      <span class="toc-number">09</span>
+      <span class="toc-number">10</span>
       <span class="toc-text">Colofão</span>
       <span class="toc-dots"></span>
-      <span class="toc-page">pg. 09</span>
+      <span class="toc-page">pg. 10</span>
     </a>
   </ol>
 </nav>
@@ -1386,7 +1392,124 @@ body::after {
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 8: OPPORTUNITIES ==================== -->
+<!-- ==================== PAGE 8: PURSUE ==================== -->
+<div class="page" id="section-pursue">
+
+<section class="magazine-grid">
+  <div class="col">
+    <span class="section-label">PURSUE 2026</span>
+    <h2>Centro de Comando Aeroespacial</h2>
+    <p class="lead">Dashboard tático para monitoramento em tempo real de alvos aeroespaciais. Interface interativa com visualização do espaço de estados cinemático, sliders de controle e indicadores de probabilidade de anomalia.</p>
+    <p>Desenvolvido como notebook Colab, o PURSUE 2026 integra Tailwind CSS, Chart.js e design glassmorphism para criar um painel de comando operacional com estética futurista. Projeto vinculado ao COAFA.</p>
+
+    <div class="pull-quote">
+      "Centro de Comando Aeroespacial — monitoramento tático em tempo real com espaço de estados cinemático e probabilidade de anomalia."
+      <cite>— PURSUE 2026</cite>
+    </div>
+
+    <h3>Especificações</h3>
+    <table class="skills-table">
+      <tbody>
+        <tr><td>Plataforma</td><td>Google Colab (Python + HTML)</td></tr>
+        <tr><td>Velocidade monitorada</td><td>150 Knots</td></tr>
+        <tr><td>Altitude</td><td>12.000 ft</td></tr>
+        <tr><td>Prob. de anomalia</td><td>0,05%</td></tr>
+        <tr><td>Status</td><td>Sistema Ativo</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Tecnologia</span>
+    <h3>Stack do Dashboard</h3>
+
+    <div class="info-box">
+      <h4>Componentes</h4>
+      <ul>
+        <li><strong>Tailwind CSS</strong> — framework utilitário para UI responsiva</li>
+        <li><strong>Chart.js</strong> — gráficos interativos em tempo real</li>
+        <li><strong>Inter + JetBrains Mono</strong> — tipografia moderna</li>
+        <li><strong>Glassmorphism</strong> — painéis com efeito de vidro translúcido</li>
+        <li><strong>Dark theme</strong> — fundo slate 950 com gradientes sutis</li>
+        <li><strong>Sliders interativos</strong> — controle de parâmetros cinemáticos</li>
+      </ul>
+    </div>
+
+    <h3>Visualização</h3>
+    <p>O dashboard apresenta o espaço de estados cinemático de alvos monitorados, com indicadores de velocidade, altitude e probabilidade de anomalia em tempo real. O design usa efeitos de brilho de fundo com gradientes radiais indigo e rosa.</p>
+
+    <div class="mag-image-wrap">
+      <svg width="100%" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="200" fill="#020617"/>
+        <!-- glow effects -->
+        <circle cx="60" cy="100" r="60" fill="url(#glow1)" opacity="0.15"/>
+        <circle cx="340" cy="60" r="50" fill="url(#glow2)" opacity="0.12"/>
+        <defs>
+          <radialGradient id="glow1"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+          <radialGradient id="glow2"><stop offset="0%" stop-color="#ec4899"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+        </defs>
+        <!-- glass panel -->
+        <rect x="20" y="20" width="360" height="160" rx="16" fill="rgba(15,23,42,0.6)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <!-- header -->
+        <text x="40" y="50" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#818cf8">PURSUE 2026</text>
+        <text x="40" y="65" font-family="'JetBrains Mono', monospace" font-size="6" fill="#64748b" letter-spacing="0.2em">CENTRO DE COMANDO AEROESPACIAL</text>
+        <!-- status dot -->
+        <circle cx="355" y="45" r="4" fill="#34d399"/>
+        <text x="335" y="48" font-family="'JetBrains Mono', monospace" font-size="5" fill="#34d399">ATIVO</text>
+        <!-- stats -->
+        <rect x="40" y="80" width="90" height="50" rx="8" fill="rgba(30,41,59,0.5)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+        <text x="85" y="100" font-family="'JetBrains Mono', monospace" font-size="7" fill="#94a3b8" text-anchor="middle">VELOCIDADE</text>
+        <text x="85" y="118" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#f8fafc" text-anchor="middle">150 kt</text>
+        <rect x="145" y="80" width="90" height="50" rx="8" fill="rgba(30,41,59,0.5)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+        <text x="190" y="100" font-family="'JetBrains Mono', monospace" font-size="7" fill="#94a3b8" text-anchor="middle">ALTITUDE</text>
+        <text x="190" y="118" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#f8fafc" text-anchor="middle">12.000 ft</text>
+        <rect x="250" y="80" width="110" height="50" rx="8" fill="rgba(30,41,59,0.5)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+        <text x="305" y="100" font-family="'JetBrains Mono', monospace" font-size="7" fill="#94a3b8" text-anchor="middle">PROB. ANOMALIA</text>
+        <text x="305" y="118" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">0,05%</text>
+        <!-- chart placeholder -->
+        <rect x="40" y="140" width="320" height="30" rx="4" fill="rgba(30,41,59,0.3)"/>
+        <polyline points="45,165 70,155 95,162 120,148 145,158 170,145 195,155 220,142 245,152 270,140 295,150 320,138 345,148 355,145" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.7"/>
+        <text x="200" y="185" font-family="'JetBrains Mono', monospace" font-size="5" fill="#475569" text-anchor="middle">ESPAÇO DE ESTADOS CINEMÁTICO</text>
+      </svg>
+      <div class="mag-image-caption">Representação do dashboard — PURSUE 2026 Centro de Comando</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <span class="section-label">Links</span>
+    <h3>Acessos</h3>
+
+    <div class="info-box">
+      <h4>Projeto</h4>
+      <ul>
+        <li><a href="https://colab.research.google.com/drive/1JWsTBSuxwl-ZSCPaNTMfs2aLBx7Ct11d?usp=sharing" target="_blank" style="color:var(--accent);">Google Colab — PURSUE 2026</a></li>
+        <li><a href="https://observation-nexus-core.lovable.app" target="_blank" style="color:var(--accent);">COAFA v1 — Plataforma</a></li>
+      </ul>
+    </div>
+
+    <h3>Relação com COAFA</h3>
+    <p>O PURSUE 2026 é o dashboard de comando do projeto COAFA. Enquanto o COAFA fornece a infraestrutura de dados e microserviços, o PURSUE oferece a interface visual para monitoramento tático em tempo real.</p>
+
+    <div class="info-box">
+      <h4>Design Features</h4>
+      <ul>
+        <li>Glassmorphism com backdrop-filter blur</li>
+        <li>Gradientes radiais indigo e rosa</li>
+        <li>Indicador de status com animação ping</li>
+        <li>Sliders estilizados com glow</li>
+        <li>Dark theme slate 950</li>
+        <li>Tipografia: Inter + JetBrains Mono</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="page-number">— 08 —</div>
+</div>
+
+<div class="page-turn-divider"></div>
+
+<!-- ==================== PAGE 9: OPPORTUNITIES ==================== -->
 <div class="page" id="section-opportunity">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1439,12 +1562,12 @@ body::after {
   </div>
 </section>
 
-<div class="page-number">— 08 —</div>
+<div class="page-number">— 09 —</div>
 </div>
 
 <div class="page-turn-divider"></div>
 
-<!-- ==================== PAGE 9: VISION & CONTACT ==================== -->
+<!-- ==================== PAGE 10: VISION & CONTACT ==================== -->
 <div class="page" id="section-vision">
 
 <section class="magazine-grid magazine-grid-two">
@@ -1495,7 +1618,7 @@ body::after {
   </div>
 </div>
 
-<div class="page-number">— 09 —</div>
+<div class="page-number">— 10 —</div>
 </div>
 
 <div class="page-turn-divider"></div>

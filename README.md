@@ -16,6 +16,7 @@ Interesse em contribuir com o projeto do telescópio russo no Observatório do P
 | **COAFA v1** — Centro Operacional de Análise de Fenômenos Aéreos | [🔗 Online](https://observation-nexus-core.lovable.app) | [observation-nexus-core](https://github.com/UNIFEI-CDA/observation-nexus-core) |
 | **BikeShare** — Análise de Dados (Capital Bikeshare) | [🔗 Online](https://bike-city-pulse.lovable.app/) | [bike-city-pulse](https://github.com/UNIFEI-CDA/bike-city-pulse) |
 | **Exoplanetas NASA** — Análise Exploratória do Catálogo | [🔗 Online](https://lustrous-cascaron-7f4b96.netlify.app/) | — |
+| **PURSUE 2026** — Dashboard Tático Aeroespacial | [🔗 Colab](https://colab.research.google.com/drive/1JWsTBSuxwl-ZSCPaNTMfs2aLBx7Ct11d?usp=sharing) | — |
 
 ### Sobre o COAFA
 
