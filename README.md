@@ -14,6 +14,7 @@ Interesse em contribuir com o projeto do telescópio russo no Observatório do P
 |---------|------|-------------|
 | **Portfolio Pessoal** | [🔗 Online](https://withdrawal-eastern-court-queensland.trycloudflare.com) | [portfolio-daniel-palma](https://github.com/d2026014944-ux/portfolio-daniel-palma) |
 | **COAFA v1** — Centro Operacional de Análise de Fenômenos Aéreos | [🔗 Online](https://observation-nexus-core.lovable.app) | [observation-nexus-core](https://github.com/UNIFEI-CDA/observation-nexus-core) |
+| **BikeShare** — Análise de Dados (Capital Bikeshare) | [🔗 Online](https://bike-city-pulse.lovable.app/) | [bike-city-pulse](https://github.com/UNIFEI-CDA/bike-city-pulse) |
 
 ### Sobre o COAFA
 
